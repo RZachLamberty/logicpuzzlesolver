@@ -1,0 +1,77 @@
+- !Rule
+    f: !foo is_same
+    params:
+      filt1: 11
+      filt2: 32
+- !Rule
+    f: !foo is_incremented
+    params:
+      compCat: games
+      bigfilt: 32
+      smallfilt: left
+      offset: 3
+- !Rule
+    f: !foo is_incremented
+    params:
+      compCat: games
+      bigfilt: theodore
+      smallfilt: 29
+      offset: 2
+- !Rule
+    f: !foo is_same
+    params:
+      filt1: hugh
+      filt2: 28
+- !Rule
+    f: !foo is_either_or
+    params:
+      isfilt: second
+      eitherfilt: russell
+      orfilt: hugh
+- !Rule
+    f: !foo is_either_or
+    params:
+      isfilt: 11
+      eitherfilt: 21
+      orfilt: benny
+- !Rule
+    f: !foo is_either_or
+    params:
+      isfilt: frank
+      eitherfilt: 18
+      orfilt: second
+- !Rule
+    f: !foo is_diff
+    params:
+      filt1: theodore
+      filt2: third
+- !Rule
+    f: !foo is_incremented
+    params:
+      compCat: games
+      bigfilt: 28
+      smallfilt: benny
+      offset: 1
+- !Rule
+    f: !foo is_either_or
+    params:
+      isfilt: 3
+      eitherfilt: 10
+      orfilt: first
+- !Rule
+    f: !foo is_diff
+    params:
+      filt1: 10
+      filt2: shortstop
+- !Rule
+    f: !foo is_incremented
+    params:
+      compCat: games
+      bigfilt: frank
+      smallfilt: first
+      offset: 1
+- !Rule
+    f: !foo is_diff
+    params:
+      filt1: 11
+      filt2: third

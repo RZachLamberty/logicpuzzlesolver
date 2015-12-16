@@ -1,0 +1,13 @@
+1. The person who played 11 games wore number 32.
+2. The boy who wore number 32 played 3 more games than the person who played left field.
+3. The player who wore number 29 played 2 fewer games than Theodore.
+4. Hugh wore number 28.
+5. The person who played second base was either Russell or Hugh.
+6. The player who played 11 games was either the player who wore number 21 or Benny.
+7. Frank was either the person who wore number 18 or the boy who played second base.
+8. Theodore didn't play third base.
+9. The boy who wore number 28 played 1 more game than Benny.
+10. The boy who wore number 3 was either the person who played 10 games or the player who played first base.
+11. The person who played 10 games didn't play shortstop.
+12. Frank played 1 more game than the person who played first base.
+13. The person who played 11 games didn't play third base.
