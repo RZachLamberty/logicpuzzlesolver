@@ -56,6 +56,10 @@ class LogicPuzzle(object):
     def poss(self):
         return self.df[common.is_possible(self.df)]
 
+    @property
+    def solution(self):
+        return self.df[self.df[common.STATUS] == common.CONFIRMED]
+
     def undo(self):
         self._df = self.history.pop()
 
@@ -73,6 +77,3 @@ class LogicPuzzle(object):
 
     def solved(self):
         return self.df[self.df[common.STATUS] == common.UNSURE].empty
-
-    def results(self):
-        return self.df[self.df[common.STATUS] == common.CONFIRMED]

@@ -34,14 +34,6 @@ FRULES = os.path.join('config', 'test_rules.txt')
 #   Main routine                #
 # ----------------------------- #
 
-def test(fcats=FCATS, frules=FRULES):
-    c = categories.CategoriesFromYaml(fcats)
-    r = rulelist.RulesFromFile(frules, c)
-    p = puzzle.LogicPuzzle(c, r)
-    p.solve()
-    print p.results()
-
-
 def main(numcat, numval):
     c = categories.CategoriesInteractive(numcat, numval)
     r = rulelist.RulesInteractive(c)

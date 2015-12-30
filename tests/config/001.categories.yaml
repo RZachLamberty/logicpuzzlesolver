@@ -1,0 +1,34 @@
+games:
+  values:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+  type: int
+players:
+  values:
+    - benny
+    - frank
+    - hugh
+    - neil
+    - russell
+    - theodore
+positions:
+  values:
+    - center
+    - first
+    - left
+    - second
+    - shortstop
+    - third
+numbers:
+  values:
+    - 3
+    - 18
+    - 21
+    - 28
+    - 29
+    - 32
+  type: int
